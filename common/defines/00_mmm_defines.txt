@@ -1,0 +1,8 @@
+		MIN_BLOCKED_DEPOSITS = 3		# Always try to have this many blocker deposits on planets when generating the galaxy
+		EMPIRE_SIZE_BASE						= 200 	# No modifiers at this empire size or below
+		EMPIRE_SIZE_TECH_COST_PENALTY			= 0.002	# Per empire size above base
+		EMPIRE_SIZE_TRADITION_COST_PENALTY		= 0.004	# Per empire size above base
+		MAX_TRADE_DEAL_LENGTH_YEARS				= 100	# Maximum length of a trade deal in years.
+		LEADER_MAX_SKILL_CAP	= 1000
+		NAVAL_CAPACITY_MAX						= 999999	# Max value of Naval Capacity	
+		MARKET_TRADE_FEE_BASE				= 0.5	# Base procentage for market trade fee

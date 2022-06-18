@@ -1,0 +1,29 @@
+# species_trait_points: base number of species trait points available for this species class
+# species_max_traits: maximum number of traits that species of this class can have (doesn't count those with cost == 0)
+
+@robot_max_traits = 10
+@machine_max_traits = 10
+@species_max_traits = 10
+@presapient_max_traits = 5
+
+BIOLOGICAL = {
+	species_max_traits = @species_max_traits
+}
+ROBOT = {
+	species_max_traits = @robot_max_traits
+	robotic = yes
+}
+MACHINE = {
+	species_max_traits = @machine_max_traits
+	robotic = yes
+}
+PRESAPIENT = {
+	species_max_traits = @presapient_max_traits
+	uses_modifiers = no
+}
+LITHOID = {
+	inherit_trait_points_from = BIOLOGICAL
+}
+OTHER = {
+	uses_modifiers = no
+}

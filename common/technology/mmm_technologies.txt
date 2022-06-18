@@ -1,0 +1,27 @@
+tech_civic_1 = {
+	cost = @tier5cost2
+	tier = 4
+	area = society
+	category = { statecraft }
+	weight = @tier5weight2
+	prerequisites = { "tech_galactic_administration" }
+	is_rare = yes
+			
+	modifier = {		# add civic slot
+		country_government_civic_points_add = 1
+	}
+}
+
+tech_civic_2 = {
+	cost = @tier5cost3
+	tier = 4
+	area = society
+	category = { statecraft }
+	weight = @tier5weight2
+	prerequisites = { "tech_civic_1" }
+	is_rare = yes
+			
+	modifier = {		# add civic slot
+		country_government_civic_points_add = 1
+	}
+}

@@ -1,0 +1,11 @@
+Version 0.1
+- No hardcap for federation fleet
+- more blocked deposits on planet generation
+- double penalties for empire size
+- double empire size limit
+- max trade deal length 100 years
+- no max naval capacity
+- higher base market fee
+- No hardcap for leader levels
+- 2 researchable civic points
+- 10 trait picks
